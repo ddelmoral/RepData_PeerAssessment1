@@ -178,4 +178,6 @@ week_activity_data$day <- as.factor(week_activity_data$day)
 library(lattice)
 xyplot(average_steps ~  interval | day, data = week_activity_data, layout = c(2,1), type ="l", ylab="Steps", main="Average Steps Weekdays/Weekends")
 
+# According to the plot there is more activity over weekends.
+
 ```
