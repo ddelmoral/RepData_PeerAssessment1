@@ -1,9 +1,13 @@
 ---
 title: "Reproducible Research: Peer Assessment 1"
-output: 
-html_document:
-keep_md: true
+author: "David del Moral"
+date: "14/Dec/2017"
+output:
+  html_document
 ---
+
+## Reproducible Research: Peer Assessment 1
+
 #### Author: David del Moral (david.delmoral@gmail.com)
 
 #### 1. Loading and preprocessing the data
@@ -181,3 +185,4 @@ xyplot(average_steps ~  interval | day, data = week_activity_data, layout = c(2,
 # According to the plot there is more activity over weekends.
 
 ```
+
